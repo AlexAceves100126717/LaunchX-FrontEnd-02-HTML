@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Llena tu formulario</h1>
+
+
+    <form action="pedido.js">
+    
+    <label for="Input1"> Ingresa tu nombre</label>
+    <br>
+    <!-- Entradas / Inputs -->
+    <input type="text" id="Input1" name="Input1">
+    <br><br>
+    <label for="correo1">Input de Correo</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+    
+    <label for="numero1">Input de número</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+    
+    <label for="psw1">Input de Password</label><br>
+    <input type="password" id="psw1" name="psw1"><br><br>
+    
+    <label for="tel1">Input de Teléfono</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+    
+
+    <hr>
+    <br>
+
+    <label for="Input1"> De que sabor sera tu pastel?</label>
+    <br>
+    <!-- Entradas / Inputs -->
+    <input type="text" id="Input1" name="Input1">
+    <br><br>
+    <label for="sabor">De que sabor sera tu pastel?</label>
+    <br>
+    <select id="sabor" name="sabor">
+        <option value="Chocolate">Chocolate</option>
+        <option value="Fresa">Fresa</option>
+        <option value="Vainilla">Vainilla</option>
+        <option value="Limón">Limón</option>
+    </select>
+    <br>
+    <label for="combinar">Quieres combinar tu pastel?</label><br>
+    <input list="combinar">
+    <datalist id="combinar">
+        <option value="Si">
+        <option value="No">
+    </datalist>
+    <br><br>
+    <label for="sabor">De que sabor sera la otra mitad?</label>
+    <br>
+    <select id="sabor" name="sabor">
+        <option value="Chocolate">Chocolate</option>
+        <option value="Fresa">Fresa</option>
+        <option value="Vainilla">Vainilla</option>
+        <option value="Limón">Limón</option>
+    </select>
+    <label for="combinar">Quieres adornar tu pastel?</label><br>
+    <input list="combinar">
+    <datalist id="combinar">
+        <option value="Si">
+        <option value="No">
+    </datalist>
+    <br><br>
+    <label for="Input2"> Que le ponemos?</label>
+    <br>
+    <!-- Entradas / Inputs -->
+    <input type="text" id="Input2" name="Input2" maxlength="10">
+    <br><br>
+
+    <input type="button" id="boton1" name="boton1" value="Hacer pedido" onclick="alert('Pedido enviado');">
+    <br>
+    <input type="reset">
+    <input type="submit">
+    <br>
+    
+    <br><br>
+
+
+</form>
+
+
+
+
+
+
+   
+</body>
+</html>
